@@ -226,7 +226,7 @@ margin-left: 140px;
     position: absolute;
 }
 
-#Imagen{
+#PImagen{
     background-color: rgb(241, 242, 211);
     width: 200px;
     height: 150px;
@@ -238,6 +238,13 @@ margin-left: 140px;
     border-right-style: solid;
     border-top-style: solid ;
     border-width: 1px;
+}
+
+#Imagen{
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 50px;
 }
 
 #BotonN{
