@@ -1,0 +1,231 @@
+#POscura{
+    background-color: rgb(149, 24, 40);
+    width: 360px;
+    height: 510px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 10px;
+    position: relative;
+    
+}
+
+#Primeraparte{
+    background-color: rgb(206, 17, 49);
+    width: 350px;
+    height: 500px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 10px;
+    position: relative;
+}
+
+#PArriba{
+    background-color: rgb(129, 10, 30);
+    width: 210px;
+    height: 90px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 100px;
+    content: "";
+    position: absolute;
+}
+
+#PArriba::before{
+    background-color: rgb(206, 17, 49);
+    width: 200px;
+    height: 80px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 100px;
+    content: "";
+    position: absolute;
+}
+
+#PArriba2{
+    background-color: rgb(129, 10, 30);
+    width: 155px;
+    height: 40px;
+    margin-left: 195px;
+    border-top-right-radius: 10px;
+    content: "";
+    position: absolute;
+}
+
+#PArriba2::before{
+    background-color: rgb(206, 17, 49);
+    width: 155px;
+    height: 30px;
+    border-top-right-radius: 10px;
+    content: "";
+    position: absolute;
+}
+
+#FRojo{
+    background-color: rgb(189, 15, 52);
+    width: 180px;
+    height: 50px;
+    margin-top: 40px;
+    margin-left: 120px;
+    border-top-right-radius: 10px;
+    content: "";
+    position: absolute;
+}
+
+#CBlanco{
+    background-color: white;
+    width: 65px;
+    height: 65px;
+    margin-left: 10px;
+    margin-top: 5px;
+    border-radius: 100px;
+    position: absolute;
+}
+
+#CAzul{
+    background-color: rgb(0, 157, 212);
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 5px;
+    border-radius: 100px;
+    position: absolute;
+}
+
+#CCeleste{
+    background-color: rgb(11, 205, 255);
+    width: 35px;
+    height: 35px;
+    margin-left: 5px;
+    border-radius: 100px;
+    position: absolute;
+}
+
+#CClaro{
+    background-color: rgb(156, 232, 255);
+    width: 10px;
+    height: 10px;
+    margin-top: 5px;
+    margin-left: 12px;
+    border-radius: 100px;
+    position: absolute;
+}
+
+/*Foco Rojo */
+#Rojo{
+    background-color: rgb(239, 6, 9);
+    width: 20px;
+    height: 20px;
+    margin-left: 80px;
+    margin-top: 8px;
+    border-radius: 100px;
+    position: absolute;
+}
+
+#ROscuro{
+    background-color: rgb(155, 4, 4);
+    width: 17px;
+    height: 17px;
+    margin-left: 3px;
+    margin-top: 3px;
+    border-radius: 100px;
+    position: absolute;
+}
+
+#RChico{
+    background-color: rgb(239, 6, 9);
+    width: 10px;
+    height: 10px;
+    border-radius: 100px;
+    position: absolute;
+}
+/*Foco Rojo */
+
+/*Focos Amarillos */
+.Amarillos{
+    background-color: rgb(226, 230, 21);
+    width: 20px;
+    height: 20px;
+    margin-left: 110px;
+    margin-top: 8px;
+    border-radius: 100px;
+    position: absolute;
+}
+
+.AOscuros{
+    background-color: rgb(128, 132, 11);
+    width: 17px;
+    height: 17px;
+    margin-left: 3px;
+    margin-top: 3px;
+    border-radius: 100px;
+    position: absolute;
+}
+
+.AChicos{
+    background-color: rgb(226, 230, 21);
+    width: 10px;
+    height: 10px;
+    border-radius: 100px;
+    position: absolute;
+}
+
+.espacios{
+margin-left: 140px;
+}
+/*Focos Amarillos */
+
+#Centro{
+    background-color: rgb(189, 15, 52);
+    width: 290px;
+    height: 400px;
+    margin-left: 10px;
+    margin-top: 90px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 30px;
+    position: absolute;
+}
+
+
+
+#Marco{
+    /*background-color: rgb(106, 107, 112);*/
+    background: repeating-linear-gradient(45deg,
+    transparent 0, transparent 10%, rgb(106, 107, 112) 0, rgb(106, 107, 112) 100%
+    );
+    width: 260px;
+    height: 200px;
+    margin-left: 10px;
+    margin-top: 15px;
+    content:"";
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    position: absolute;
+}
+
+#Marco::before{
+    /*background-color: rgb(222, 222, 222);*/
+    background: repeating-linear-gradient(45deg,
+    transparent 0, transparent 10%, rgb(222, 222, 222) 0, rgb(222, 222, 222) 100%
+    );
+    width: 255px;
+    height: 195px;
+    margin-left: 5px;
+    content: "";
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    position: absolute;
+}
+
+#Imagen{
+    background-color: rgb(241, 242, 211);
+    width: 200px;
+    height: 150px;
+    margin-top: 20px;
+    margin-left: 30px;
+    border-radius: 15px;
+    position: absolute;
+
+}
+
