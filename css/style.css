@@ -174,6 +174,7 @@ margin-left: 140px;
 }
 /*Focos Amarillos */
 
+/* Centro */
 #Centro{
     background-color: rgb(189, 15, 52);
     width: 290px;
@@ -229,3 +230,66 @@ margin-left: 140px;
 
 }
 
+#BotonN{
+    background-color: rgb(5, 5, 5);
+    width: 50px;
+    height: 50px;
+    margin-top: 220px;
+    margin-left: 10px;
+    border-radius: 100px;
+    content: "";
+    position: absolute;
+}
+
+#BotonN::before{
+    background-color: rgb(34, 34, 34);
+    width: 42px;
+    height: 42px;
+    margin-left: 6px;
+    border-radius: 100px;
+    content: "";
+    position: absolute;
+}
+
+#BotonR{
+    background-color: red; /* rgb(199, 12, 19);*/
+    width: 60px;
+    height: 15px;
+    border-radius: 10px;
+    margin-top: 235px;
+    margin-left: 85px;
+    position: absolute;
+}
+
+#BotonA{
+    background-color: rgb(9, 83, 120); /* rgb(199, 12, 19);*/
+    width: 60px;
+    height: 15px;
+    border-radius: 10px;
+    margin-top: 235px;
+    margin-left: 160px;
+    position: absolute;
+}
+
+#CruzA{
+    background-color: rgb(13, 13, 13);
+    width: 30px;
+    height: 80px;
+    border-radius: 5px;
+    margin-top: 235px;
+    margin-left: 240px;
+    content: "";
+    position: absolute;
+}
+
+#CruzA::before{
+    background-color: rgb(13, 13, 13);
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-left: -25px;
+    content: "";
+    position: absolute;
+}
+/* Centro */
