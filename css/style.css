@@ -576,10 +576,10 @@ margin-left: 140px;
 
 #BotonFondo{
     background-color: rgb(31, 90, 215);
-    width: 240px;
-    height: 80px;
+    width: 255px;
+    height: 85px;
     margin-top: 290px;
-    margin-left: 50px;
+    margin-left: 40px;
     border-radius: 5px;
     position: absolute;
 }
@@ -589,7 +589,7 @@ margin-left: 140px;
     width: 50px;
     height: 40px;
     border-radius: 5px;
-    position: static;
+    margin-left: 5px;
     border-color: black;
     border-style: solid;
     border-width: 1px;
@@ -599,5 +599,104 @@ margin-left: 140px;
     margin-top: 290px;
     margin-left: 24px;
     position: absolute;
+}
+.e1{
+    margin-top: -80px;
+    margin-left: 55px;
+    position: absolute;
+}
+.e2{
+    margin-top: -40px;
+    margin-left: 55px;
+    position: absolute;
+}
+.e3{
+    margin-top: -80px;
+    margin-left: 105px;
+    position: absolute;
+}
+.e4{
+    margin-top: -40px;
+    margin-left: 105px;
+    position: absolute;
+}
+.e5{
+    margin-top: -80px;
+    margin-left: 155px;
+    position: absolute;
+}
+.e6{
+    margin-top: -40px;
+    margin-left: 155px;
+    position: absolute;
+}
+.e7{
+    margin-top: -80px;
+    margin-left: 205px;
+    position: absolute;
+}
+.e8{
+    margin-top: -40px;
+    margin-left: 205px;
+    position: absolute;
+}
+
+#BotonN2{
+    background-color: rgb(9, 83, 120); /* rgb(199, 12, 19);*/
+    width: 50px;
+    height: 10px;
+    border-radius: 10px;
+    margin-top: 385px;
+    margin-left: 190px;
+    position: absolute;
+}
+
+#BotonN2::before{
+    background-color: rgb(9, 83, 120); /* rgb(199, 12, 19);*/
+    width: 50px;
+    height: 10px;
+    border-radius: 10px;
+    margin-left: 55px;
+    content: "";
+    position: absolute;
+}
+
+#BotonBlanco{
+    background-color: rgb(106, 106, 114);
+    width: 105px;
+    height: 45px;
+    border-radius: 5px;
+    margin-top: 400px;
+    margin-left: 40px;
+    position: absolute;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+}
+
+#BotonBlanco::before{
+    background-color: rgb(222, 222, 222);
+    width: 50px;
+    height: 40px;
+    margin-left: 3px;
+    border-radius: 5px 0px 0px 5px;
+    content: "";
+    position: absolute;
+    border-color: gray;
+    border-style: solid;
+    border-width: 1px;
+}
+
+#BotonBlanco::after{
+    background-color: rgb(222, 222, 222);
+    width: 50px;
+    height: 40px;
+    margin-left: 53px;
+    border-radius: 0px 5px 5px 0px;
+    content: "";
+    position: absolute;
+    border-color: gray;
+    border-style: solid;
+    border-width: 1px;
 }
 /* Cuerpo 2 */
