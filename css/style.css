@@ -472,6 +472,7 @@ margin-left: 140px;
     margin-top: 10px;
     margin-right: 400px;
     border-top-right-radius: 100px;
+    border-top-left-radius: 37px;
     content: "";
     position: absolute;
 }
@@ -519,4 +520,84 @@ margin-left: 140px;
     position: absolute;
 }
 
+#Centro2{
+    background-color: rgb(206, 17, 49);
+    width: 350px;
+    height: 345px;
+    margin-top: 160px;
+    border-bottom-right-radius: 30px;
+    position: absolute;
+}
+
+#Centro2::before{
+    background-color: rgb(149, 24, 40);
+    width: 330px;
+    height: 335px;
+    content: "";
+    margin-left: 10px;
+    border-bottom-right-radius: 30px;
+    position: absolute;
+}
+
+#Centro2::after{
+    background-color: rgb(206, 17, 49);
+    width: 320px;
+    height: 335px;
+    content: "";
+    margin-left: 10px;
+    border-bottom-right-radius: 15px;
+    position: absolute;
+    border-color: rgb(140, 14, 36);
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-width: 1px;
+}
+
+#Linea{
+    border-color: rgb(140, 14, 36);
+    width: 1px;
+    height: 80px;
+    margin-top: 80px;
+    margin-left: 10px;
+    position: absolute;
+    border-left-style: solid;
+    border-width: 1px;
+}
+
+#PantallaN{
+    background-color: rgb(3, 45, 41);
+    width: 240px;
+    height: 120px;
+    margin-top: 150px;
+    margin-left: 50px;
+    border-radius: 10px;
+    position: absolute;
+}
+
+#BotonFondo{
+    background-color: rgb(31, 90, 215);
+    width: 240px;
+    height: 80px;
+    margin-top: 290px;
+    margin-left: 50px;
+    border-radius: 5px;
+    position: absolute;
+}
+
+.BotonesAzules{
+    background-color: rgb(49, 167, 241);
+    width: 50px;
+    height: 40px;
+    border-radius: 5px;
+    position: static;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.posicionado{
+    margin-top: 290px;
+    margin-left: 24px;
+    position: absolute;
+}
 /* Cuerpo 2 */
