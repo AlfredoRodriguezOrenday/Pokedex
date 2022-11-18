@@ -15,8 +15,8 @@
     <h1 class="text-center">POKEDEX</h1>
     <p class="text-center">Busca el pokemon que quieras</p>
 
-    <div class="container">
-        <div class="row">
+    <div class="container mr-5">
+        <div class="row ml-5">
             <div class="ml-5">
                 <div id="POscura">
                     <div id="Primeraparte">
@@ -60,10 +60,13 @@
                         <div id="Centro">
                                 <div id="Marco">
                                     <div id="PImagen">
-                                        <img src="./img/pokeball.png" alt="Pokemon" id="Imagen">
+                                        <img src="./img/pokeball.png" alt="Pokemon" class="imagen" id="Imagen">
+                                        <p id="errorMensaje" class="text-center rounded font-weight-bold"></p>
                                     </div>
                                 </div>
-                                <div id="BotonN"></div>
+                                <div id="BotonN">
+                                    <button id="BotonAccion" onclick="fetchPokemon()"> <i class="fa fa-search text-white"></i> </button>
+                                </div>
                                 <div id="BotonR"></div>
                                 <div id="BotonA"></div>
                                 <div id="CruzA"></div>
@@ -97,7 +100,31 @@
                     <div id="CostadoDerecho"></div>
                     <div id="Centro2"></div>
                     <div id="PantallaN">
-                            
+                            <p id="Tipo" class="ml-2 mt-2">Tipo:</p>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-3">
+                                        <p class="hp infoStats">HP: </p>
+                                    </div>
+                                    <div class="col-3">
+                                        <p class="attack infoStats">Attack: </p>
+                                    </div>
+                                    <div class="col-3">
+                                        <p class="defense infoStats">Defense: </p>
+                                    </div>
+                                    <div class="col-3"></div>
+                                    <div class="col-4">
+                                        <p class="sattack infoStats">S. Attack: </p>
+                                    </div>
+                                    <div class="col-4">
+                                        <p class="sdefense infoStats">S. Defense: </p>
+                                    </div>
+                                    <div class="col-3">
+                                        <p class="speed infoStats">Speed: </p>
+                                    </div>
+                                </div>
+                            </div>
+
                     </div>
                     <div id="BotonFondo">
                         <div class="BotonesAzules"></div>
@@ -115,12 +142,18 @@
                     <div id="BotonN2"></div>
                     <div id="BotonBlanco"></div>
                     <div id="CirculoDorado"></div>
-                    <div id="PantallaChica"></div>
-                    <div id="PantallaChica2"></div>
+                    <div id="PantallaChica">
+                        <p class="mt-2 ml-2" id="Altura">Altura: </p>
+                    </div>
+                    <div id="PantallaChica2">
+                        <p class="mt-2 ml-2" id="Peso">Peso: </p>
+                    </div>
                 </div>
                 <!--Cuerpo 2-->
             </div>
         </div>
     </div>
+
+    <script src="./js/pokeapi.js"></script>
 </body>
 </html>
